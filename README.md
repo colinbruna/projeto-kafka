@@ -3,6 +3,7 @@
 * Spring
 * Java 11
 * Maven
+* Docker
 * Kafka
 
 Anotações Spring:

@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/kafka")
-public class KakfaController {
+public class KafkaController {
 
     private final ProdutorTopicoService produtorTopicoService;
     private final ProdutorTopico2Service produtorTopico2Service;
     private final ProdutorTopico3Service produtorTopico3Service;
 
-    public KakfaController(final ProdutorTopicoService produtorTopicoService,
+    public KafkaController(final ProdutorTopicoService produtorTopicoService,
                            final ProdutorTopico2Service produtorTopico2Service,
                            final ProdutorTopico3Service produtorTopico3Service) {
         this.produtorTopicoService = produtorTopicoService;
